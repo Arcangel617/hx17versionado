@@ -1,49 +1,26 @@
-# Taller pre Hackathon Express 2017. Versionado. Git y Github
+# Taller pre Hackathon Express 201x. Versionado. Git y Github
 
 Enlace a la presentación: [https://goo.gl/q8Y8CF](https://goo.gl/q8Y8CF)
 
 # Mini Tutorial Git
 
-Los siguientes comandos están sacados de la referencia que pueden descargar desde éste [enlace](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf "GIT Cheat Sheet"). Según mi criterio los que tendrían que saber usar son los siguientes:
+Los siguientes comandos están sacados de la referencia que pueden descargar desde éste [enlace](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf "GIT Cheat Sheet").
 
-#### 1. Creando el repositorio local
+#### 1. Crear repositorios 
 Podemos crear un repositorio de dos maneras:
 
-#### 1.1. Clonando un repositorio existente en GitHub o BitBucket: git clone
-Podemos descargarnos el repositorio en cuestión de la siguiente manera:
+#### 1.1. clonar o descargar un proyecto 
 
 ```bash
-$ git clone https://github.com/Arcangel617/hx17versionado.git
+$ git clone https://github.com/Arcangel617/taller-versionado-git-github.git
 
 ```
-Con eso se nos crea una copia exacta de lo que tengamos en GitHub y solo restaría configurarlo.
+Con esto creamos una copia exacta de un proyecto junto con toda historia. Por historia se entiende todos los cambios que se introdujeron durante la vida del proyecto.
 
-#### 1.2. Inicializando un repositorio: git init
-Otra forma de crear un repositorio local es la siguiente:
+#### 1.2. crear un nuevo proyecto local
 
 ```bash
 $ git init nombre_del_proyecto
-
-```
-Esto nos creará una carpeta en la cual vamos a tener que especificar la url del repositorio de la siguiente manera:
-```bash
-$ git remote add origin https://github.com/Arcangel617/hx17versionado.git
-```
-
-Suponiendo que ya tenemos nuestro proyecto creado pero aún no creamos nuestro repositorio en GitHub por ejemplo, lo que 
-tenemos que hacer es lo siguiente:
-```bash
-$ cd nombre_del_proyecto
-$ git init
-$ git remote add origin https://github.com/Arcangel617/hx17versionado.git
-
-```
-ahora, si no tenemos nada creado... lo mas conveniente es hacer lo siguiente:
-```bash
-$ mkdir nombre_del_proyecto
-$ cd nombre_del_proyecto
-$ git init
-$ git remote add origin https://github.com/Arcangel617/hx17versionado.git
 
 ```
 
